@@ -9,9 +9,6 @@
     text-align: center;
     text-transform: uppercase;
     color: #fff;
-    &:focus {
-        outline: none;
-    }
     &_main {
         width: 300px;
         height: 50px;
@@ -24,5 +21,10 @@
         height: 55px;
         font-size: 16px;
         line-height: 17px;
+    }
+    &_mini {
+        width: 131px;
+        height: 40px;
+        font-size: 14px;
     }
 }
